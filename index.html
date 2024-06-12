@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Value Noise</title>
+	<meta name="author" content="Value noise">
+	<meta name="description" content="Titolo Pagina: descrizione">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="./icons/icon_32.png" type="image/png">
+	<link rel="icon" href="./icons/icon_256.png" type="image/png">
+	<link rel="manifest" href="./manifest.json">
+	<link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+	<div class="contenitore">
+
+		<!-- --------------------------------------------------------------------- -->
+
+		<header>
+			<span></span>
+			<h1>Value noise</h1>
+		</header>
+
+		<!-- --------------------------------------------------------------------- -->
+
+		<section class="filetto">
+			<h4 class="titolo-sezione">Origine</h4>
+			<div class="contenuto-sezione">
+				<p>
+					Il value noise è emerso come una tecnica innovativa nel campo della grafica procedurale, sviluppata per risolvere la necessità di generare 
+					texture più realistiche. Negli anni ’60 e ’70, durante una fase di rapida evoluzione della grafica computerizzata, 
+					ricercatori e sviluppatori esploravano nuove metodologie per migliorare la qualità visiva delle immagini generate al computer.
+					In quel periodo, infatti, le capacità di memoria delle macchine erano limitate, rendendo impossibile l'impiego di immagini di alta 
+					risoluzione per il texturing, spingendo così a trovare nuove soluzioni.
+				</p>
+			</div>
+		</section>
+
+		<!-- --------------------------------------------------------------------- -->
+
+		<section class="filetto">
+			<h4 class="titolo-sezione">Cos'è</h4>
+			<div class="contenuto-sezione">
+				<p>
+					Il value noise è quindi un algoritmo essenziale per creare texture e superfici naturali di alta risoluzione.
+					Questa tecnica può generare transizioni graduali tra i valori: l'interpolazione tra i punti crea un effetto visivo fluido e smussato, 
+					che imita meglio le caratteristiche naturali rispetto al rumore casuale puro.
+					Il noise può essere generato in diverse dimensioni, 1D, 2D, 3D, ognuna adatta a specifici tipi di applicazioni grafiche.
+				</p>
+				<ul> 
+					<li>1D (una dimensione), che produce una linea di valori.</li>
+					<li>2D (due dimensioni), che crea una griglia di valori, utilizzata per texture o altri effetti superficiali.</li>
+					<li>3D (tre dimensioni), che forma un volume di valori, spesso impiegato in effetti più complessi come fumo o nuvole.</li>
+				</ul>
+				<img src="icons/value noise.gif" alt="Descrizione della GIF">
+			</div>
+		</section>
+
+		<!-- --------------------------------------------------------------------- -->
+
+		<section class="filetto">
+			<h4 class="titolo-sezione">Noise 1D</h4>
+			<div class="contenuto-sezione">
+				<p>
+					L'algoritmo è quindi una funzione matematica utilizzata per generare e gestire dei valori distribuiti in un determinato spazio.
+					Quando il valore del noise si avvicina a 1, il colore risultante assume una luminosità maggiore, tendendo al bianco. 
+					Al contrario, quando il valore del noise si avvicina a 0, il colore diventa più scuro, tendendo al nero. 
+				</p>
+				<img src="icons/01.png" alt=" " width="500">
+				<img src="icons/02.png" alt=" " width="500">
+				<img src="icons/03.png" alt=" " width="500">
+				<img src="icons/04.png" alt=" " width="500">
+			</div>
+		</section>
+
+		<!-- --------------------------------------------------------------------- -->
+
+		<section class="filetto">
+			<h4 class="titolo-sezione">Noise 2D</h4>
+			<div class="contenuto-sezione">
+				<p>
+					Il Value Noise 2D è una tecnica di generazione di rumore procedurale che crea texture naturali su una griglia bidimensionale. 
+					Utilizza punti di controllo casuali e interpolazione bilineare per calcolare valori intermedi, producendo transizioni graduali tra i punti. 
+					Questo metodo è ideale per simulare superfici come terreni e materiali, generando un rumore visivamente continuo e realistico.
+				</p>
+				<img src="icons/05.png" alt=" " width="700">
+			</div>
+		</section>
+
+		<!-- --------------------------------------------------------------------- -->
+
+		<section class="filetto">
+			<h4 class="titolo-sezione">Noise 3D</h4>
+			<div class="contenuto-sezione">
+				<p>
+					Il Noise 3D è invece utilizzato per creare texture e modelli volumetrici realistici. 
+					In una griglia tridimensionale, utilizza l’interpolazione trilineare tra i valori casuali degli otto punti di controllo più vicini per produrre 
+					transizioni fluide e naturali. Questo metodo è ideale per simulare effetti volumetrici come fumo, 
+					nebbia e variazioni di densità nei fluidi, offrendo realismo e dettaglio elevato.
+				</p>
+				<img src="icons/06.png" alt=" " width="700">
+			</div>
+		</section>
+
+		<!-- --------------------------------------------------------------------- -->
+
+		<section class="filetto">
+			<h4 class="titolo-sezione">Utili</h4>
+			<div class="contenuto-sezione">
+				<ul>
+					<a href="https://www.khanacademy.org/computer-programming/1d-noise-with-subdivision-clamps/3335128842">Tool 1D Value Noise</a>
+					<br><a href="http://auburn.github.io/FastNoiseLite/">Generazione Noise</a> 
+					<br><a href="https://www.scratchapixel.com/lessons/procedural-generation-virtual-worlds/procedural-patterns-noise-part-1/creating-simple-1D-noise.html">Approfondimenti</a>
+					<br><a href="https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@10.7/manual/Operator-ValueNoise.html">Glossario</a>
+				</ul>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
