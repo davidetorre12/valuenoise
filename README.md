@@ -31,7 +31,7 @@ L’interfaccia del progetto è progettata per essere facilmente consultabile, l
 
 
 ## Tecnologia usata
-Il progettoè stato costruito su un template fornito dai docenti, che utilizza HTML5 e CSS.
+Il progetto è stato costruito su un template fornito dai docenti, che utilizza HTML5.
 Inoltre è stato utilizzato Illustrator per i disegni esplicativi.
 
 
@@ -39,6 +39,6 @@ Inoltre è stato utilizzato Illustrator per i disegni esplicativi.
 
 ## Target e contesto d’uso
 Il progetto è destinato a studenti curiosi di ampliare le loro conoscenze sugli algoritmi.
-Il value noise Trova applicazione in ambiti come videogiochi, simulazioni e animazioni, dove la comprensione e l’implementazione del value noise possono migliorare significativamente la qualità visiva delle texture e l’esperienza complessiva.
+Il value noise trova applicazione in ambiti come videogiochi, simulazioni e animazioni, dove la comprensione e l’implementazione del value noise possono migliorare significativamente la qualità visiva delle texture e l’esperienza complessiva.
 
 
