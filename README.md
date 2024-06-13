@@ -6,7 +6,7 @@ Elaborato intermedio: Value Noise
 
 # Titolo progetto
 Autore: Davide Torre 
-[Value Noise](xxxxx)
+[Value Noise](https://davidetorre12.github.io/valuenoise/)
 
 
 ## Introduzione e tema
