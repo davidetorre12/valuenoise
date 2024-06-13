@@ -79,4 +79,14 @@ ul {
 	iframe {
 		width: 100%;
 	}
+
+	a {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 10%;
+    
+}
 }
