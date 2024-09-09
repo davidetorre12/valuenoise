@@ -4,7 +4,7 @@ Docenti: A. Gysin, G. Profeta
 
 Elaborato intermedio: Value Noise 
 
-# Titolo progetto
+# Value Noise
 Autore: Davide Torre 
 [Value Noise](https://davidetorre12.github.io/valuenoise/)
 
